@@ -1,0 +1,16 @@
+#BOT PYTHON : melakukan spam terhdapat suatu kolom chat 
+#bisa diterapkan pada semua platform chat
+#bisa di ganti pesan dan berapa kali spam nya
+#apabila pyautogui nya error, tulis pada command : pip install pyautogui
+
+import pyautogui 
+import time
+
+message="DEK BANGUN UDAH JAM 7" #pesan yang ingin di spam
+x=1 #atur jumlah spam (looping pertama)
+n=100 #atur jumlah spam (looping kedua)
+time.sleep(5) #jeda waktu antara script di run dengan waktu eksekusi
+
+for a in range(x):
+    for i in range(n):
+        pyautogui.typewrite(message+'\n')
