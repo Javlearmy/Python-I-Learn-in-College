@@ -1,0 +1,15 @@
+## PROGRAM PYHTON mengubah satuan detik menjadi format satuan jam, menis, detik
+
+def fungsi(berapa,jam,menit,detik,rumus):
+    jam = berapa//3600
+    menit = rumus//60
+    detik = rumus%60
+    return(str(jam)+" jam",str(menit)+" menit",str(detik)+" detik")
+
+def main():
+    berapa = int(input("masukan satuan detik : "))
+    rumus = berapa%3600
+    jam,menit,detik = 0,0,0
+    print(berapa,"detik adalah :",fungsi(berapa,jam,menit,detik,rumus))
+
+main()
