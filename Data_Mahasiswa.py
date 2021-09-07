@@ -1,4 +1,4 @@
-### PROGRAM pengelolaan data mahasiswa meliputi :
+### PROGRAM PYTHON pengelolaan data mahasiswa meliputi :
 ## Input data : menginputkan nama, nim, jurusan
 ## Daftar data : menampilkan data yang terdaftar di database
 ## Urutkan data : mengurutkan data berdasarkan nim terkecil
